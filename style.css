@@ -13,9 +13,11 @@ body {
 }
 
 .container {
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 2 / 1; /*largeur 2x hauteur */
+  background-position: center;
   position: relative;
-  width: 1000px;
-  height: 500px;
   background-image: url(images/panthere.jpg);
   background-size: cover;
   background-repeat: no-repeat;
