@@ -44,7 +44,7 @@ body {
   height: 80px;
   background-color: var(--bg-box);
   color: var(--accent);
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 2vw, 2rem);
   border-radius: 20px;
   border: 10px solid var(--bg-dark);
 }
@@ -85,13 +85,12 @@ body {
   height: 200px;
   background-color: var(--bg-box);
   color: var(--accent);
-  font-size: 1.5rem;
+  font-size: clamp(1, 2vw, 1.5rem);
   line-height: 2rem;
   text-align: justify;
   padding: 20px;
   border-radius: 40px;
   border: 20px solid var(--bg-dark);
-  /* color: white; */
 }
 
 .quote::before {
